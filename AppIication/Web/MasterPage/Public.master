@@ -1,0 +1,138 @@
+﻿<%@ Master Language="VB" CodeFile="Public.master.vb" Inherits="MasterPage_Public" %>
+
+<!DOCTYPE html>
+
+
+<%@ Register Src="~/Include/wucErrorMessageBox.ascx" TagName="wucError" TagPrefix="wucError" %>
+<%@ Register Src="~/Include/sFooter.ascx" TagName="sFooter" TagPrefix="uc3" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=.9" />
+    <link rel="Shortcut Icon" href="~/favicon.ico" type="image/x-icon" />
+    <title>Tax Relief Application</title>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
+
+    <asp:ContentPlaceHolder ID="cpHead" runat="server">
+        <link href="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/bootstrap/css/bootstrap.min.css")%>" rel="stylesheet" />
+        <link href="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/bootstrap-icons/bootstrap-icons.css")%>" rel="stylesheet" />
+        <link href="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/aos/aos.css")%>" rel="stylesheet" />
+        <link href="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/glightbox/css/glightbox.min.css")%>" rel="stylesheet" />
+        <link href="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/swiper/swiper-bundle.min.css")%>" rel="stylesheet" />
+
+        <!-- Template Main CSS File -->
+        <link href="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/main.css")%>" rel="stylesheet" />
+
+        <%-- DATEPICKER AND TIMEPICKER --%>
+        <script defer="defer" src="<%=ResolveClientUrl("~/Scripts/bootstrap_datepicker/js/bootstrap-datepicker.min.js")%>"></script>
+        <link href="<%=ResolveClientUrl("~/Scripts/bootstrap_datepicker/css/bootstrap-datepicker.standalone.min.css")%>" rel="stylesheet" />
+
+        <script defer="defer" src="<%=ResolveClientUrl("~/Scripts/bootstrap_timepicker/js/bootstrap-timepicker.min.js")%>"></script>
+        <link href="<%=ResolveClientUrl("~/Scripts/bootstrap_timepicker/css/bootstrap-timepicker.min.css")%>" rel="stylesheet" />
+
+        <%-- MULTISTEP --%>
+        <link href="<%=ResolveClientUrl("~/Scripts/multistep/css/bs.step.css")%>" rel="stylesheet" />
+        
+        <%-- File Upload --%>
+        <%--  <link href="<%=ResolveClientUrl("~/Scripts/kratik/fileinput/css/fileinput.min.css")%>" rel="stylesheet" />
+        <script defer="defer" src="<%=ResolveClientUrl("~/Scripts/kratik/fileinput/js/fileinput.min.js")%>"></script>--%>
+
+    </asp:ContentPlaceHolder>
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7L1XJHHL63"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7L1XJHHL63');
+    </script>
+
+</head>
+
+<body>
+
+    <form id="form1" role="form" method="post" runat="server" autocomplete="off" defaultbutton="btnDoNothing">
+          <asp:Button ID="btnDoNothing" runat="server" Enabled="false" Style="display: none;" />
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+
+        <!-- ======= Header ======= -->
+        <section id="topbar" class="topbar d-flex align-items-center">
+            <div class="container d-flex justify-content-center justify-content-md-between">
+                <div class="contact-info d-flex align-items-center">
+                    <%-- <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:clenro.cdo@gmail.com">clenro.cdo@gmail.com</a></i>
+                    <i class="bi bi-phone d-flex align-items-center ms-4"><span>09973564313 / 09534700096</span></i>--%>
+                </div>
+                <div class="social-links d-none d-md-flex align-items-center">
+                    <%--<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>--%>
+                    <a href="https://www.facebook.com/Cdocto2019" class="facebook" target="_blank"><i class="bi bi-facebook">CDO Office of the City Treasurer</i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100068600627542" class="facebook" target="_blank"><i class="bi bi-facebook">RTA Public Information and Education</i></a>
+                    <%-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>--%>
+                </div>
+            </div>
+        </section>
+        <!-- End Top Bar -->
+
+        <header id="header" class="header d-flex align-items-center">
+
+            <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+                <a href="<%=ResolveClientUrl("~/Default.aspx")%>" class="logo d-flex align-items-center">
+                    <!-- Uncomment the line below if you also wish to use an image logo -->
+                    <!-- <img src="assets/img/logo.png" alt=""> -->
+                    <h1>Tax Relief Application<span>.</span></h1>
+                </a>
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a href="<%=ResolveClientUrl("~/Default.aspx")%>">Home</a></li>
+                        <li><a href="<%=ResolveClientUrl("~/Services.aspx")%>">Services</a></li>
+                        <li><a href="<%=ResolveClientUrl("~/AboutUs.aspx")%>">About</a></li>
+
+                    </ul>
+                </nav>
+                <!-- .navbar -->
+
+                <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+                <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- End Header -->
+
+        <asp:ContentPlaceHolder ID="cpConTent" runat="server">
+        </asp:ContentPlaceHolder>
+        
+        <!-- Footer -->
+        
+        <div>
+            <uc3:sFooter ID="sFooter1" runat="server" />
+        </div>
+                       
+       <!-- End Footer -->
+        
+    </form>
+
+    <!-- Vendor JS Files -->
+    <script src="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/bootstrap/js/bootstrap.bundle.min.js")%>"></script>
+    <script src="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/aos/aos.js")%>"></script>
+    <script src="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/glightbox/js/glightbox.min.js")%>"></script>
+    <script src="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/purecounter/purecounter_vanilla.js")%>"></script>
+    <script src="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/swiper/swiper-bundle.min.js")%>"></script>
+    <script src="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/isotope-layout/isotope.pkgd.min.js")%>"></script>
+    <script src="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/php-email-form/validate.js")%>"></script>
+
+    <!-- Template Main JS File -->
+    <script src="<%=ResolveClientUrl("~/Scripts/bootstrap_theme/js/main.js")%>"></script>
+    <script src="<%=ResolveClientUrl("~/Scripts/assets/js/scripts.bundle.js")%>"></script>
+
+    <!-- MULTISTEP JS File -->
+    <%--<script src="<%=ResolveClientUrl("~/Scripts/multistep/js/bs.step.js")%>"></script>--%>
+</body>
+</html>
