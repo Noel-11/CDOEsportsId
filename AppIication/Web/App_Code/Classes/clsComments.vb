@@ -20,6 +20,7 @@ Public Class clsComments
     Private _commentDatetime As String
 
 #Region "Properties"
+
     Public Property transId As String
         Get
             Return Me._transId
