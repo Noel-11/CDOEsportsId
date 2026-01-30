@@ -7,9 +7,8 @@ Public Class clsDatabase
         If ConfigurationManager.AppSettings("conType").ToString = "local" Then
             dbUtility.Initialize_DB_MYSQL_WEB(ConfigurationManager.ConnectionStrings("sqlDB").ConnectionString)
         Else
-            dbUtility.Initialize_DB_MYSQL_WEB("Server=172.16.1.101;Initial Catalog='db_scid';Persist Security Info=no;User Name='scid';Password='scid';default command timeout=360;Port=3602;Allow Zero Datetime=true;AllowUserVariables=True")
-            'dbUtility.Initialize_DB_MYSQL_WEB("Server=172.16.1.104;Initial Catalog='db_test';Persist Security Info=no;User Name='noel';Password='noel';default command timeout=360;Port=3607;Allow Zero Datetime=true;AllowUserVariables=True")
-            'dbUtility.Initialize_DB_MYSQL_WEB("Server=localhost;Initial Catalog='db_scid';Persist Security Info=no;User Name='root';Password='ictlgucdo';default command timeout=360;Port=3306;Allow Zero Datetime=true;AllowUserVariables=True")
+            dbUtility.Initialize_DB_MYSQL_WEB("Server=localhost;Initial Catalog='db_cdoesid';Persist Security Info=no;User Name='root';Password='ictlgucdo';default command timeout=360;Port=3306;Allow Zero Datetime=true;AllowUserVariables=True")
+          
         End If
 
     End Sub

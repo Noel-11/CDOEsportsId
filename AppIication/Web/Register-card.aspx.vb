@@ -3,8 +3,11 @@ Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports System.Data
 
+
 Partial Public Class RegisterCard
     Inherits System.Web.UI.Page
+
+    Dim _clsDB As New clsDatabase
 
     Private registeredUsersDB As New clsRegisteredUsers()
 
@@ -175,5 +178,7 @@ Partial Public Class RegisterCard
         lblLicensedPlayer.Text = If(CBool(userRow("is_licensed_player")), "Yes", "No")
         lblReferralChannel.Text = If(String.IsNullOrEmpty(userRow("referral_channel").ToString()), "N/A", userRow("referral_channel").ToString())
     End Sub
+
+
 
 End Class

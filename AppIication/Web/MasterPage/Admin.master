@@ -79,8 +79,8 @@
             <div class="d-flex align-items-center justify-content-between">
                 <a href="#" class="logo d-flex align-items-center">
                     <img src="<%=ResolveClientUrl("~/Images/seallogo.png")%>" alt="CDO Logo" />
-                     <img src="<%=ResolveClientUrl("~/Images/oscaLogo.png")%>" alt="CDO Logo" />
-                    <span class="d-none d-lg-block">SCID</span>
+                    <%-- <img src="<%=ResolveClientUrl("~/Images/oscaLogo.png")%>" alt="CDO Logo" />--%>
+                    <span class="d-none d-lg-block">CDO ESPORTS</span>
                 </a>
                 <i class="bi bi-list toggle-sidebar-btn"></i>
             </div>

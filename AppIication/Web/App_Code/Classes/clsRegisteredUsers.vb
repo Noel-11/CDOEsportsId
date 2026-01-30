@@ -3,7 +3,7 @@ Imports System.Data
 Imports MySql.Data.MySqlClient
 
 Public Class clsRegisteredUsers
-    Private connectionString As String = "Server=localhost;Database=db_cctms;User Id=root;Password=imtheadmin;Port=3306;Allow Zero Datetime=true;AllowUserVariables=True;CharSet=utf8"
+    Private connectionString As String = "Server=localhost;Database=db_cdoesid;User Id=root;Password=ictlgucdo;Port=3306;Allow Zero Datetime=true;AllowUserVariables=True;CharSet=utf8"
 
     ''' <summary>
     ''' Get barangays for dropdown (minimal data)
