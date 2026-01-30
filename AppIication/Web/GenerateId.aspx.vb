@@ -131,8 +131,6 @@ Partial Class GenerateId
             ltEmbedID.Text = String.Format("<object data=""{0}{1}"" type=""application/pdf"" width=""100%"" height=""600px""></object>", ResolveUrl("ReportHandler.ashx"), "")
         End If
 
-
-
     End Sub
 
     Private Function getQR(ByVal _thisData As DataTable) As DataTable
@@ -188,7 +186,6 @@ Partial Class GenerateId
         Return dt
 
     End Function
-
 
 #End Region
 
