@@ -1,0 +1,12 @@
+﻿<%@ Page Language="VB" MasterPageFile="~/Site.Master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
+    <title>Register Card</title>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="container mt-5">
+        <h1>Register Card</h1>
+        <p>TEST</p>
+    </div>
+</asp:Content>

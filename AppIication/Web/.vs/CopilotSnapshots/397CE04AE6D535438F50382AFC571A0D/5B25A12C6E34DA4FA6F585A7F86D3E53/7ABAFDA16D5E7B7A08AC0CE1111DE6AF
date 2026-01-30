@@ -1,0 +1,34 @@
+﻿Imports System
+Imports System.Web.UI
+Imports System.Web.UI.WebControls
+
+Partial Public Class RegisterCard
+    Inherits System.Web.UI.Page
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+        If Not IsPostBack Then
+            detailsCard.Attributes("class") = "details-card"
+        End If
+    End Sub
+
+    Protected Sub btnSubmit_Click(ByVal sender As Object, ByVal e As EventArgs)
+        If Page.IsValid Then
+            lblFullName.Text = txtFullName.Text.Trim()
+            lblEmail.Text = txtEmail.Text.Trim()
+            lblAge.Text = txtAge.Text.Trim()
+            lblAddress.Text = txtAddress.Text.Trim().Replace(vbCrLf, "<br />")
+
+            detailsCard.Attributes("class") = "details-card show"
+
+            Dim script As String = "document.getElementById('formCard').style.display='none';"
+            ClientScript.RegisterStartupScript(Me.GetType(), "HideForm", script, True)
+        End If
+    End Sub
+
+    Protected Sub btnBack_Click(ByVal sender As Object, ByVal e As EventArgs)
+        detailsCard.Attributes("class") = "details-card"
+
+        Dim script As String = "document.getElementById('formCard').style.display='block';"
+        ClientScript.RegisterStartupScript(Me.GetType(), "ShowForm", script, True)
+    End Sub
+End Class

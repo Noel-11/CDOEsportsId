@@ -1,0 +1,33 @@
+﻿Imports System
+Imports System.Web.UI
+Imports System.Web.UI.WebControls
+
+Partial Public Class RegisterCard
+    Inherits System.Web.UI.Page
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+        ' No initial setup needed for Panels; default Valid is set in ASPX
+    End Sub
+
+    Protected Sub btnSubmit_Click(ByVal sender As Object, ByVal e As EventArgs)
+        If Page.IsValid Then
+            ' Populate labels
+            lblFullName.Text = txtFullName.Text.Trim()
+            lblBarangay.Text = txtBarangay.Text.Trim()
+            lblBarangayCaptain.Text = txtBarangayCaptain.Text.Trim()
+            lblDate.Text = DateTime.Parse(txtDate.Text).ToString("MMMM dd, yyyy")
+            
+            ' Switch views
+            pnlForm.Visible = False
+            pnlDetails.Visible = True
+        End If
+    End Sub
+
+    Protected Sub btnBack_Click(ByVal sender As Object, ByVal e As EventArgs)
+        ' Switch views back
+        pnlForm.Visible = True
+        pnlDetails.Visible = False
+    End Sub
+
+End Class
+

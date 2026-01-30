@@ -1,0 +1,134 @@
+﻿<%@ Page Language="VB" MasterPageFile="~/Site.Master" %>
+
+<script runat="server">
+    Protected Sub btnSubmit_Click(sender As Object, e As EventArgs)
+        ' Hide form, show summary
+        pnlForm.Visible = False
+        pnlSummary.Visible = True
+
+        lblSummaryName.Text = txtName.Text
+        lblSummaryEmail.Text = txtEmail.Text
+        lblSummaryAge.Text = txtAge.Text
+        lblSummaryAddress.Text = txtAddress.Text
+    End Sub
+
+    Protected Sub btnBack_Click(sender As Object, e As EventArgs)
+        ' Show form, hide summary
+        pnlForm.Visible = True
+        pnlSummary.Visible = False
+    End Sub
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
+    <title>User Registration</title>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <style>
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            .printable-area, .printable-area * {
+                visibility: visible;
+            }
+            .printable-area {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                box-shadow: none !important;
+                border: none !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+        }
+        .form-control-lg {
+            font-size: 0.95rem;
+        }
+        .bg-gradient-soft {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+    </style>
+
+    <div class="min-vh-100 d-flex align-items-center justify-content-center bg-gradient-soft py-5">
+        
+        <!-- Input Form Control -->
+        <asp:Panel ID="pnlForm" runat="server" CssClass="card shadow border-0 rounded-4 p-4 p-md-5 no-print" style="max-width: 500px; width: 100%;">
+            <div class="text-center mb-4">
+                <h3 class="fw-bold text-dark">User Information</h3>
+                <p class="text-muted small">Please fill in your details below</p>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-semibold text-secondary small text-uppercase">Full Name</label>
+                <asp:TextBox ID="txtName" runat="server" CssClass="form-control form-control-lg rounded-3 bg-light border-0 px-3" placeholder="e.g. Juan Dela Cruz"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="rfvName" runat="server" ControlToValidate="txtName" ErrorMessage="Name is required" CssClass="text-danger small" Display="Dynamic" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-semibold text-secondary small text-uppercase">Email Address</label>
+                <asp:TextBox ID="txtEmail" runat="server" TextMode="Email" CssClass="form-control form-control-lg rounded-3 bg-light border-0 px-3" placeholder="name@example.com"></asp:TextBox>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label class="form-label fw-semibold text-secondary small text-uppercase">Age</label>
+                    <asp:TextBox ID="txtAge" runat="server" TextMode="Number" CssClass="form-control form-control-lg rounded-3 bg-light border-0 px-3" placeholder="00"></asp:TextBox>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fw-semibold text-secondary small text-uppercase">Address</label>
+                <asp:TextBox ID="txtAddress" runat="server" TextMode="MultiLine" Rows="3" CssClass="form-control form-control-lg rounded-3 bg-light border-0 px-3" placeholder="Complete address"></asp:TextBox>
+            </div>
+
+            <asp:Button ID="btnSubmit" runat="server" Text="Print Details" OnClick="btnSubmit_Click" CssClass="btn btn-primary btn-lg w-100 rounded-pill fw-bold shadow-sm" />
+        </asp:Panel>
+
+
+        <!-- Printable Summary Control -->
+        <asp:Panel ID="pnlSummary" runat="server" Visible="false" CssClass="card shadow-lg border-0 rounded-4 printable-area" style="max-width: 600px; width: 100%;">
+            <div class="card-header bg-white border-bottom-0 text-center pt-5 pb-0">
+                <h2 class="fw-bold mb-0 text-primary">Registration Summary</h2>
+                <span class="badge bg-light text-dark mt-2 border">Official Copy</span>
+            </div>
+            
+            <div class="card-body p-5">
+                <div class="row g-4">
+                    <div class="col-12 border-bottom pb-2">
+                        <small class="text-secondary text-uppercase d-block mb-1">Full Name</small>
+                        <asp:Label ID="lblSummaryName" runat="server" CssClass="h5 text-dark fw-bold mb-0 d-block"></asp:Label>
+                    </div>
+
+                    <div class="col-12 border-bottom pb-2">
+                        <small class="text-secondary text-uppercase d-block mb-1">Email Details</small>
+                        <asp:Label ID="lblSummaryEmail" runat="server" CssClass="h6 text-dark mb-0 d-block"></asp:Label>
+                    </div>
+
+                    <div class="col-sm-4 border-bottom pb-2">
+                        <small class="text-secondary text-uppercase d-block mb-1">Age</small>
+                        <asp:Label ID="lblSummaryAge" runat="server" CssClass="h6 text-dark mb-0 d-block"></asp:Label>
+                    </div>
+
+                    <div class="col-12">
+                        <small class="text-secondary text-uppercase d-block mb-1">Current Address</small>
+                        <asp:Label ID="lblSummaryAddress" runat="server" CssClass="h6 text-dark mb-0 d-block"></asp:Label>
+                    </div>
+                </div>
+
+                <div class="mt-5 text-center no-print d-flex gap-2 justify-content-center">
+                    <button type="button" onclick="window.print()" class="btn btn-dark rounded-pill px-4 btn-lg me-2">
+                        <i class="bi bi-printer-fill me-2"></i>Print Now
+                    </button>
+                    <asp:Button ID="btnBack" runat="server" Text="Edit Details" OnClick="btnBack_Click" CssClass="btn btn-outline-secondary rounded-pill px-4 btn-lg" />
+                </div>
+            </div>
+            <div class="card-footer bg-light text-center border-0 py-3">
+                <small class="text-muted">Generated by CDOeSportsId System</small>
+            </div>
+        </asp:Panel>
+
+    </div>
+</asp:Content>

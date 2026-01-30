@@ -20,25 +20,31 @@ Partial Class _Default
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
-        If Not Page.IsPostBack Then
-            Session.Remove("SENIOR_ID")
-            Session("SENDSMS") = _clsDB.Get_DB_Item("SELECT default_value FROM tbl_system_default WHERE default_desc = 'notify_sms'")
-            If Session("VISITED") <> "VISITED" Then
-                Session("VISITED") = "VISITED"
-                With _clsVisitor
-                    .visitorIp = GetIPAddress()
-                    .saveVisitor()
-                End With
-            End If
+        'If Not Page.IsPostBack Then
+        '    Session.Remove("SENIOR_ID")
+        '    Session("SENDSMS") = _clsDB.Get_DB_Item("SELECT default_value FROM tbl_system_default WHERE default_desc = 'notify_sms'")
+        '    If Session("VISITED") <> "VISITED" Then
+        '        Session("VISITED") = "VISITED"
+        '        With _clsVisitor
+        '            .visitorIp = GetIPAddress()
+        '            .saveVisitor()
+        '        End With
+        '    End If
 
-            lblTodayVisitor.Text = _clsVisitor.getVisitorCount
-            lblTotalVisitor.Text = _clsVisitor.getVisitorCount("ALL")
+        '    lblTodayVisitor.Text = _clsVisitor.getVisitorCount
+        '    lblTotalVisitor.Text = _clsVisitor.getVisitorCount("ALL")
 
+        'End If
+
+        '_btnOK = thisMsgBox.FindControl("btnMsgBoxYes")
+        'AddHandler _btnOK.ServerClick, AddressOf btnOK_Click
+
+        'TO REDIRECT TO REGISTER-CARD.ASPX (TEMP)
+        If Not IsPostBack Then
+            ' temporary redirect (302)
+            Response.Redirect("~/Register-card.aspx", False)
+            Context.ApplicationInstance.CompleteRequest()
         End If
-
-        _btnOK = thisMsgBox.FindControl("btnMsgBoxYes")
-        AddHandler _btnOK.ServerClick, AddressOf btnOK_Click
-
     End Sub
 
     Protected Sub btnOK_Click(ByVal sender As Object, ByVal e As System.EventArgs)

@@ -1,0 +1,44 @@
+﻿Imports System
+Imports System.Web.UI
+Imports System.Web.UI.WebControls
+
+Partial Public Class RegisterCard
+    Inherits System.Web.UI.Page
+
+    Private registeredUsersDB As New clsRegisteredUsers()
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+        If Not Page.IsPostBack Then
+            ' Set date field to today's date
+            txtDate.Text = DateTime.Now.ToString("yyyy-MM-dd")
+        End If
+    End Sub
+
+    Protected Sub btnSubmit_Click(ByVal sender As Object, ByVal e As EventArgs)
+        If Page.IsValid Then
+            ' Populate labels with form data
+            lblFullName.Text = txtFullName.Text.Trim()
+            lblBarangay.Text = txtBarangay.Text.Trim()
+            lblBarangayCaptain.Text = txtBarangayCaptain.Text.Trim()
+
+            ' Format date nicely
+            Dim selectedDate As DateTime
+            If DateTime.TryParse(txtDate.Text, selectedDate) Then
+                lblDate.Text = selectedDate.ToString("MMMM dd, yyyy")
+            Else
+                lblDate.Text = txtDate.Text
+            End If
+
+            ' Switch views
+            pnlForm.Visible = False
+            pnlDetails.Visible = True
+        End If
+    End Sub
+
+    Protected Sub btnBack_Click(ByVal sender As Object, ByVal e As EventArgs)
+        ' Switch views back to form
+        pnlForm.Visible = True
+        pnlDetails.Visible = False
+    End Sub
+
+End Class

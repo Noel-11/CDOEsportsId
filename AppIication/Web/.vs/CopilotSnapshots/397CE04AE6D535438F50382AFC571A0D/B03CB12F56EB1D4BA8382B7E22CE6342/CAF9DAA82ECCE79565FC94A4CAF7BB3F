@@ -1,0 +1,330 @@
+﻿<%@ Page Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Register-card.aspx.vb" Inherits="RegisterCard" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
+    <title>Register Card - User Information</title>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <style>
+        .register-card-container {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 0;
+        }
+        
+        .card-form-wrapper {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+        
+        .form-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 50px;
+            margin-bottom: 30px;
+        }
+        
+        .form-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .form-subtitle {
+            font-size: 16px;
+            color: #718096;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #4a5568;
+            margin-bottom: 8px;
+            display: block;
+        }
+        
+        .form-control-custom {
+            width: 100%;
+            padding: 14px 18px;
+            font-size: 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            background-color: #f7fafc;
+        }
+        
+        .form-control-custom:focus {
+            outline: none;
+            border-color: #667eea;
+            background-color: white;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        textarea.form-control-custom {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .btn-submit {
+            width: 100%;
+            padding: 16px;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+        
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        .details-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 50px;
+            display: none;
+        }
+        
+        .details-card.show {
+            display: block;
+        }
+        
+        .details-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 30px;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .detail-row {
+            display: flex;
+            padding: 18px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+        
+        .detail-label {
+            font-weight: 600;
+            color: #4a5568;
+            min-width: 140px;
+            font-size: 15px;
+        }
+        
+        .detail-value {
+            color: #2d3748;
+            flex: 1;
+            font-size: 15px;
+        }
+        
+        .btn-print {
+            width: 100%;
+            padding: 16px;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+        }
+        
+        .btn-print:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(72, 187, 120, 0.4);
+        }
+        
+        .btn-back {
+            width: 100%;
+            padding: 14px;
+            font-size: 15px;
+            font-weight: 600;
+            color: #667eea;
+            background: white;
+            border: 2px solid #667eea;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 15px;
+        }
+        
+        .btn-back:hover {
+            background: #f7fafc;
+        }
+        
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            
+            .register-card-container {
+                background: white !important;
+            }
+            
+            .details-card, .details-card * {
+                visibility: visible;
+            }
+            
+            .details-card {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                box-shadow: none;
+            }
+            
+            .btn-print, .btn-back {
+                display: none !important;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .form-card, .details-card {
+                padding: 30px 25px;
+            }
+            
+            .form-title {
+                font-size: 26px;
+            }
+            
+            .detail-row {
+                flex-direction: column;
+            }
+            
+            .detail-label {
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+
+    <div class="register-card-container">
+        <div class="card-form-wrapper">
+            <!-- Form Card -->
+            <div id="formCard" class="form-card">
+                <h1 class="form-title">User Registration</h1>
+                <p class="form-subtitle">Please fill in your information below</p>
+                
+                <div class="form-group">
+                    <label class="form-label">Full Name</label>
+                    <asp:TextBox ID="txtFullName" runat="server" CssClass="form-control-custom" placeholder="Enter your full name" />
+                    <asp:RequiredFieldValidator ID="rfvFullName" runat="server" 
+                        ControlToValidate="txtFullName" 
+                        ErrorMessage="Full Name is required" 
+                        ForeColor="Red" 
+                        Display="Dynamic" 
+                        Font-Size="13px" />
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Email Address</label>
+                    <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control-custom" TextMode="Email" placeholder="Enter your email address" />
+                    <asp:RequiredFieldValidator ID="rfvEmail" runat="server" 
+                        ControlToValidate="txtEmail" 
+                        ErrorMessage="Email is required" 
+                        ForeColor="Red" 
+                        Display="Dynamic" 
+                        Font-Size="13px" />
+                    <asp:RegularExpressionValidator ID="revEmail" runat="server" 
+                        ControlToValidate="txtEmail" 
+                        ErrorMessage="Please enter a valid email address" 
+                        ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" 
+                        ForeColor="Red" 
+                        Display="Dynamic" 
+                        Font-Size="13px" />
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Age</label>
+                    <asp:TextBox ID="txtAge" runat="server" CssClass="form-control-custom" TextMode="Number" placeholder="Enter your age" />
+                    <asp:RequiredFieldValidator ID="rfvAge" runat="server" 
+                        ControlToValidate="txtAge" 
+                        ErrorMessage="Age is required" 
+                        ForeColor="Red" 
+                        Display="Dynamic" 
+                        Font-Size="13px" />
+                    <asp:RangeValidator ID="rvAge" runat="server" 
+                        ControlToValidate="txtAge" 
+                        ErrorMessage="Age must be between 1 and 120" 
+                        MinimumValue="1" 
+                        MaximumValue="120" 
+                        Type="Integer" 
+                        ForeColor="Red" 
+                        Display="Dynamic" 
+                        Font-Size="13px" />
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Address</label>
+                    <asp:TextBox ID="txtAddress" runat="server" CssClass="form-control-custom" TextMode="MultiLine" Rows="4" placeholder="Enter your complete address" />
+                    <asp:RequiredFieldValidator ID="rfvAddress" runat="server" 
+                        ControlToValidate="txtAddress" 
+                        ErrorMessage="Address is required" 
+                        ForeColor="Red" 
+                        Display="Dynamic" 
+                        Font-Size="13px" />
+                </div>
+                
+                <asp:Button ID="btnSubmit" runat="server" Text="Print Details" CssClass="btn-submit" OnClick="btnSubmit_Click" />
+            </div>
+            
+            <!-- Details Card -->
+            <div id="detailsCard" class="details-card" runat="server">
+                <h2 class="details-title">User Information</h2>
+                
+                <div class="detail-row">
+                    <div class="detail-label">Full Name:</div>
+                    <div class="detail-value">
+                        <asp:Label ID="lblFullName" runat="server" />
+                    </div>
+                </div>
+                
+                <div class="detail-row">
+                    <div class="detail-label">Email Address:</div>
+                    <div class="detail-value">
+                        <asp:Label ID="lblEmail" runat="server" />
+                    </div>
+                </div>
+                
+                <div class="detail-row">
+                    <div class="detail-label">Age:</div>
+                    <div class="detail-value">
+                        <asp:Label ID="lblAge" runat="server" />
+                    </div>
+                </div>
+                
+                <div class="detail-row">
+                    <div class="detail-label">Address:</div>
+                    <div class="detail-value">
+                        <asp:Label ID="lblAddress" runat="server" />
+                    </div>
+                </div>
+                
+                <button type="button" class="btn-print" onclick="window.print();">🖨️ Print Details</button>
+                <asp:Button ID="btnBack" runat="server" Text="← Back to Form" CssClass="btn-back" OnClick="btnBack_Click" CausesValidation="false" />
+            </div>
+        </div>
+    </div>
+</asp:Content>

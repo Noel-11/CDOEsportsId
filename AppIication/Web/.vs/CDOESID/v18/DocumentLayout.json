@@ -1,0 +1,402 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|c:\\users\\gamer\\desktop\\web\\cdoesportsid\\appiication\\web\\default.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:default.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|c:\\users\\gamer\\desktop\\web\\cdoesportsid\\appiication\\web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|c:\\users\\gamer\\desktop\\web\\cdoesportsid\\appiication\\web\\register-card.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:register-card.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|c:\\users\\gamer\\desktop\\web\\cdoesportsid\\appiication\\web\\register-card.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:register-card.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|c:\\users\\gamer\\desktop\\web\\cdoesportsid\\appiication\\web\\app_code\\classes\\clsregisteredusers.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:app_code\\classes\\clsregisteredusers.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|c:\\users\\gamer\\desktop\\web\\cdoesportsid\\appiication\\web\\secured\\default.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:secured\\default.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|c:\\users\\gamer\\desktop\\web\\cdoesportsid\\appiication\\web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|c:\\users\\gamer\\desktop\\web\\cdoesportsid\\appiication\\web\\secured\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:secured\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\reporthandler.ashx||{DAB1E6DB-4119-49A3-ACE3-0FE8F3E0669F}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:reporthandler.ashx||{DAB1E6DB-4119-49A3-ACE3-0FE8F3E0669F}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\app_code\\classes\\clsdatabase.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:app_code\\classes\\clsdatabase.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|c:\\users\\gamer\\desktop\\web\\cdoesportsid\\appiication\\web\\secured\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:secured\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|c:\\users\\gamer\\desktop\\web\\cdoesportsid\\appiication\\web\\scripts\\landing\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:scripts\\landing\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|c:\\users\\gamer\\desktop\\web\\cdoesportsid\\appiication\\web\\secured\\filehandler.ashx||{DAB1E6DB-4119-49A3-ACE3-0FE8F3E0669F}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:secured\\filehandler.ashx||{DAB1E6DB-4119-49A3-ACE3-0FE8F3E0669F}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\scripts\\niceadmin\\vendor\\boxicons\\css\\boxicons.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:scripts\\niceadmin\\vendor\\boxicons\\css\\boxicons.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\scripts\\niceadmin\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:scripts\\niceadmin\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\app_code\\classes\\clsuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:app_code\\classes\\clsuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\app_code\\classes\\clscmspermission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:app_code\\classes\\clscmspermission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\masterpage\\secured.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:masterpage\\secured.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\masterpage\\public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:masterpage\\public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\masterpage\\admin0.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:masterpage\\admin0.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\scripts\\niceadmin\\vendor\\chart.js\\core\\core.registry.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:scripts\\niceadmin\\vendor\\chart.js\\core\\core.registry.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\masterpage\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0F16C491-AF20-4923-8195-B1B5BAF96B4E}|C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web|solutionrelative:masterpage\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx.vb",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Default.aspx.vb",
+              "RelativeDocumentMoniker": "Default.aspx.vb",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Default.aspx.vb",
+              "RelativeToolTip": "Default.aspx.vb",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-29T05:11:53.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\web.config",
+              "RelativeDocumentMoniker": "web.config",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\web.config",
+              "RelativeToolTip": "web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-29T05:10:24.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register-card.aspx.vb",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Register-card.aspx.vb",
+              "RelativeDocumentMoniker": "Register-card.aspx.vb",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Register-card.aspx.vb",
+              "RelativeToolTip": "Register-card.aspx.vb",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwKUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-29T01:21:45.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsRegisteredUsers.vb",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\App_Code\\Classes\\clsRegisteredUsers.vb",
+              "RelativeDocumentMoniker": "App_Code\\Classes\\clsRegisteredUsers.vb",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\App_Code\\Classes\\clsRegisteredUsers.vb",
+              "RelativeToolTip": "App_Code\\Classes\\clsRegisteredUsers.vb",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-29T01:21:29.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register-card.aspx",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Register-card.aspx",
+              "RelativeDocumentMoniker": "Register-card.aspx",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Register-card.aspx",
+              "RelativeToolTip": "Register-card.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-29T01:17:57.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.aspx.vb",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Secured\\Default.aspx.vb",
+              "RelativeDocumentMoniker": "Secured\\Default.aspx.vb",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Secured\\Default.aspx.vb",
+              "RelativeToolTip": "Secured\\Default.aspx.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-29T00:08:43.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "clsDatabase.vb",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\App_Code\\Classes\\clsDatabase.vb",
+              "RelativeDocumentMoniker": "App_Code\\Classes\\clsDatabase.vb",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\App_Code\\Classes\\clsDatabase.vb",
+              "RelativeToolTip": "App_Code\\Classes\\clsDatabase.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-28T08:14:25.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReportHandler.ashx",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\ReportHandler.ashx",
+              "RelativeDocumentMoniker": "ReportHandler.ashx",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\ReportHandler.ashx",
+              "RelativeToolTip": "ReportHandler.ashx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2026-01-28T08:04:29.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-29T01:15:31.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Secured\\Default.aspx",
+              "RelativeDocumentMoniker": "Secured\\Default.aspx",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Secured\\Default.aspx",
+              "RelativeToolTip": "Secured\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-29T00:08:29.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashBoard.aspx",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Secured\\DashBoard.aspx",
+              "RelativeDocumentMoniker": "Secured\\DashBoard.aspx",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Secured\\DashBoard.aspx",
+              "RelativeToolTip": "Secured\\DashBoard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-29T00:09:16.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Scripts\\landing\\css\\styles.css",
+              "RelativeDocumentMoniker": "Scripts\\landing\\css\\styles.css",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Scripts\\landing\\css\\styles.css",
+              "RelativeToolTip": "Scripts\\landing\\css\\styles.css",
+              "ViewState": "AgIAAAQuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-29T00:11:44.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FileHandler.ashx",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Secured\\FileHandler.ashx",
+              "RelativeDocumentMoniker": "Secured\\FileHandler.ashx",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Secured\\FileHandler.ashx",
+              "RelativeToolTip": "Secured\\FileHandler.ashx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2026-01-29T00:09:14.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "boxicons.css",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Scripts\\NiceAdmin\\vendor\\boxicons\\css\\boxicons.css",
+              "RelativeDocumentMoniker": "Scripts\\NiceAdmin\\vendor\\boxicons\\css\\boxicons.css",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Scripts\\NiceAdmin\\vendor\\boxicons\\css\\boxicons.css",
+              "RelativeToolTip": "Scripts\\NiceAdmin\\vendor\\boxicons\\css\\boxicons.css",
+              "ViewState": "AgIAAJMFAAAAAAAAAAAUwJ0FAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-28T08:18:15.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Scripts\\NiceAdmin\\css\\style.css",
+              "RelativeDocumentMoniker": "Scripts\\NiceAdmin\\css\\style.css",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Scripts\\NiceAdmin\\css\\style.css",
+              "RelativeToolTip": "Scripts\\NiceAdmin\\css\\style.css",
+              "ViewState": "AgIAAK8EAAAAAAAAAAAAANAEAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-28T08:19:21.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "clsUser.vb",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\App_Code\\Classes\\clsUser.vb",
+              "RelativeDocumentMoniker": "App_Code\\Classes\\clsUser.vb",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\App_Code\\Classes\\clsUser.vb",
+              "RelativeToolTip": "App_Code\\Classes\\clsUser.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-28T08:14:23.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "clsCMSPermission.vb",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\App_Code\\Classes\\clsCMSPermission.vb",
+              "RelativeDocumentMoniker": "App_Code\\Classes\\clsCMSPermission.vb",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\App_Code\\Classes\\clsCMSPermission.vb",
+              "RelativeToolTip": "App_Code\\Classes\\clsCMSPermission.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-28T08:14:22.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Secured.master",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\MasterPage\\Secured.master",
+              "RelativeDocumentMoniker": "MasterPage\\Secured.master",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\MasterPage\\Secured.master",
+              "RelativeToolTip": "MasterPage\\Secured.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-28T08:14:09.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Public.master",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\MasterPage\\Public.master",
+              "RelativeDocumentMoniker": "MasterPage\\Public.master",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\MasterPage\\Public.master",
+              "RelativeToolTip": "MasterPage\\Public.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-28T08:14:08.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Admin0.master",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\MasterPage\\Admin0.master",
+              "RelativeDocumentMoniker": "MasterPage\\Admin0.master",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\MasterPage\\Admin0.master",
+              "RelativeToolTip": "MasterPage\\Admin0.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-28T08:14:04.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "core.registry.d.ts",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Scripts\\NiceAdmin\\vendor\\chart.js\\core\\core.registry.d.ts",
+              "RelativeDocumentMoniker": "Scripts\\NiceAdmin\\vendor\\chart.js\\core\\core.registry.d.ts",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\Scripts\\NiceAdmin\\vendor\\chart.js\\core\\core.registry.d.ts",
+              "RelativeToolTip": "Scripts\\NiceAdmin\\vendor\\chart.js\\core\\core.registry.d.ts",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-28T08:08:50.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Admin.master",
+              "DocumentMoniker": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\MasterPage\\Admin.master",
+              "RelativeDocumentMoniker": "MasterPage\\Admin.master",
+              "ToolTip": "C:\\Users\\gamer\\Desktop\\Web\\CDOEsportsId\\AppIication\\Web\\MasterPage\\Admin.master",
+              "RelativeToolTip": "MasterPage\\Admin.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-28T07:59:50.535Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
